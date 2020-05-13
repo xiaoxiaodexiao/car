@@ -1,0 +1,34 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<!-- No need to set system property "Log4jContextSelector" to any value when 
+	using <asyncLogger> or <asyncRoot>. -->
+
+<Configuration status="WARN">
+	<Appenders>
+		<!-- 定义控制台输出 -->
+		<Console name="console" target="SYSTEM_OUT" follow="true">
+			<PatternLayout
+				pattern="%date{yyyy-MM-dd HH:mm:ss.SSS} %level [%thread][%file:%line] - %msg%n" />
+		</Console>
+		<RollingFile name="dtu_server_appr" fileName="logs/dtu_server.log"
+			filePattern="logs/$${date:yyyy-MM}/dtu_server-%d{MM-dd-yyyy}-%i.log.gz">
+			<PatternLayout>
+				<Pattern>%d %p %c{1.} [%t] %m%n</Pattern>
+			</PatternLayout>
+			<Policies>
+				<TimeBasedTriggeringPolicy />
+				<SizeBasedTriggeringPolicy size="250 MB" />
+			</Policies>
+		</RollingFile>
+	</Appenders>
+	<Loggers>
+		<Root level="debug" includeLocation="true">
+			<AppenderRef ref="console"></AppenderRef>
+		</Root>
+		<!-- pattern layout actually uses location, so we need to include it -->
+		<AsyncLogger name="dtu_server" level="DEBUG"
+			includeLocation="true">
+			<AppenderRef ref="dtu_server_appr" />
+		</AsyncLogger>
+	</Loggers>
+</Configuration>
