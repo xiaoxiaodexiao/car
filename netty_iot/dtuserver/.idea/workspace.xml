@@ -1,17 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="36d8254b-d533-4347-af99-f69031e44819" name="默认更改列表" comment="">
-      <change afterPath="$PROJECT_DIR$/.idea/$PROJECT_FILE$" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/.gitignore" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/codeStyles/codeStyleConfig.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/codestream.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/inspectionProfiles/Project_Default.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/qaplug_profiles.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-    </list>
+    <list default="true" id="36d8254b-d533-4347-af99-f69031e44819" name="默认更改列表" comment="" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -23,7 +13,7 @@
   <component name="Git.Settings">
     <option name="RECENT_BRANCH_BY_REPOSITORY">
       <map>
-        <entry key="$PROJECT_DIR$/../.." value="master" />
+        <entry key="$PROJECT_DIR$/../.." value="clj" />
       </map>
     </option>
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$/../.." />
@@ -66,14 +56,34 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1589341293710</updated>
-      <workItem from="1589341304439" duration="711000" />
+      <workItem from="1589341304439" duration="1035000" />
     </task>
+    <task id="LOCAL-00001" summary="first">
+      <created>1589342365407</created>
+      <option name="number" value="00001" />
+      <option name="presentableId" value="LOCAL-00001" />
+      <option name="project" value="LOCAL" />
+      <updated>1589342365408</updated>
+    </task>
+    <option name="localTasksCounter" value="2" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
     <option name="version" value="1" />
   </component>
+  <component name="VcsManagerConfiguration">
+    <MESSAGE value="first" />
+    <option name="LAST_COMMIT_MESSAGE" value="first" />
+  </component>
   <component name="WindowStateProjectService">
+    <state x="138" y="0" key="CommitChangelistDialog2" timestamp="1589342359978">
+      <screen x="0" y="0" width="1366" height="728" />
+    </state>
+    <state x="138" y="0" key="CommitChangelistDialog2/0.0.1366.728@0.0.1366.728" timestamp="1589342359977" />
+    <state x="275" y="96" key="Vcs.Push.Dialog.v2" timestamp="1589342498590">
+      <screen x="0" y="0" width="1366" height="728" />
+    </state>
+    <state x="275" y="96" key="Vcs.Push.Dialog.v2/0.0.1366.728@0.0.1366.728" timestamp="1589342498590" />
     <state x="322" y="154" key="git4idea.merge.GitPullDialog" timestamp="1589342217504">
       <screen x="0" y="0" width="1366" height="728" />
     </state>
